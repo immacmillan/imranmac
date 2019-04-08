@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    title #{title}
+    link(rel='stylesheet', href='/css/style.css')
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+  body
+    main
+      block header  
+        header.header
+          h4.headtop
+            | Welcome to the world of
+          h1 
+            | #{title} 
+          h6.headspec 
+            | InfoSec Strategist, Developer & Futurist
+          h6.headspec
+            | Blockhain Proponent, Web Pundit
+      block content
