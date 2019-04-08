@@ -1,5 +1,6 @@
 const express = require('express');
-const people = require('./people.json');
+//const people = require('./people.json');
+const homepagedata = require('./homepagedata.json');
 
 const app = express();
 
@@ -10,16 +11,16 @@ app.use(express.static(__dirname + '/public'));
 app.get('/', (req, res) => {
   res.render('index', {
     title: 'Imran G. MacMillan',
-    people: people.profiles,
-
+  //  people: people.profiles,
+    homepagedata: homepagedata.competencies
   });
 });
 
-app.get('/profile', (req, res) => {
-  const person = people.profiles.find(p => p.id === req.query.id);
-  res.render('profile', {
-    title: `About ${person.firstname} ${person.lastname}`,
-    person,
+app.get('/comps', (req, res) => {
+  const comp = homepagedata.competencies.find(p => p.id === req.query.id);
+  res.render('comps', {
+    title: `About ${comp.type} ${comp.qualifications}`,
+    comp,
   });
 });
 
