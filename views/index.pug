@@ -1,6 +1,14 @@
 extends default 
 
 block content
+  div.topcontainer
+    p.topcontainercontent Working at the intersection of content delivery, application development and information security. 
+    p.topcontainercontent Delivering platforms to enable commerce and deliver secure transaction platforms for consumers and merchants alike.
+    br
+    p.topcontainercontent Harnessing cutting edge technologies with a philosophy of open-source and freely-distributed. 
+    p.topcontainercontent Java makes the world go round, and cloud development will always have a place for nascient systems. 
+    br
+    p.topcontainercontent2 Donate Now || Be a Bean || github: immacmillan || LinkedIn: || Twitter: || Instagram: || Facebook: || 
   div.container
     each comp in homepagedata
       div.comp
@@ -9,5 +17,7 @@ block content
           | #{comp.type} 
         a(href=`/comps?id=${comp.id}`)
           | View Profile 
+
+    
           
           

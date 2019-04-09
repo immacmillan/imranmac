@@ -1,11 +1,10 @@
 {
   "competencies": [
     {
-      "type": "InfoSec Strategist",
+      "type": "InfoSec",
       "qualifications": "RHEL, AWS, Solaris, Linux, Oracle",
-      "misc":
-        "Lorem ipsum dolor sit amet, oratio feugiat sed te, hinc ancillae cum ut. Ad explicari argumentum duo. Sea dicant iriure utroque ei, in duo meis solet. Eum id reque legendos prodesset, his ad solet ceteros. At pri duis recusabo ocurreret, saepe fabellas sed ad, at iudico constituam mel. \n\n Id zril intellegat efficiendi sed, at vel eros vidit. Modus signiferumque ex his, dicant consulatu definitionem ea has. Qui at ubique debitis, cu eripuit inciderint nam. Sit ei admodum interesset mediocritatem. Prima quando suavitate vel an, illum scaevola efficiendi vim ne.",
-      "tagline": "System Orchestration & Architecture - node to Enterprise scale",
+      "misc": "Information security has never been as important or vulnerable simulatneously thanks to the ever expanding list of software vulnerabilities, and ever more creative method of attack. As there has been infomrmation worth keeping, there has been information worth stealing, and today's world provides the would-be intruder many opportunities from exposed ports, to misconfigured proxies, to outdated software versions, to human point of failure. To me this gets at a bigger point - with such exposure from all sides in the instutitions we placed the most faith: government failing at massive levels to maintain basic human privacy (OPM x2), banks failing themselves to maintain liquidity, not to mention failing to maintain customer security and privacy (x/x major banks suffered from breach of confidential and private information), major lenders responsible for underwriting the American dream (owning a home), credit agencies failing to maintian the private confidential information they use to track us. I could go further on how exposed our societal institutions have left us, but the point of this blurb was to communicate the need for information security, and that might go on to expose further mechanized aspects of the modern human condition.",
+      "tagline": "Build Walls That Matter",
       "imgSrc": "infosec.png",
       "twitter": "https://twitter.com/",
       "id": "infosec"
@@ -15,19 +14,18 @@
       "type": "Software Developer",
       "qualifications": "RHEL, AWS, Solaris, Linux, Oracle",
       "misc":
-        "Lorem ipsum dolor sit amet, oratio feugiat sed te, hinc ancillae cum ut. Ad explicari argumentum duo. Sea dicant iriure utroque ei, in duo meis solet. Eum id reque legendos prodesset, his ad solet ceteros. At pri duis recusabo ocurreret, saepe fabellas sed ad, at iudico constituam mel. \n\n Id zril intellegat efficiendi sed, at vel eros vidit. Modus signiferumque ex his, dicant consulatu definitionem ea has. Qui at ubique debitis, cu eripuit inciderint nam. Sit ei admodum interesset mediocritatem. Prima quando suavitate vel an, illum scaevola efficiendi vim ne.",
-      "tagline": "System Orchestration & Architecture - node to Enterprise scale",
+        "Ethics in AI - where do robots get to draw the lines. Human compassion is something that capitalism has drived to drive out of society, but now dominant capitalists have found ways to programatically enabale the planned obsolensence of major factions of society, and humanity at large. The question is largely - what will become of these leftover traunces, under-represented economic minorities but physical pluralities. In this top heavy maelstorm of malprudence and faltering agencies of balance, reckoning is on the horizon. Will the individualist, the lone hacker, reign supreme - or will conglomerates and titans of industry manipulate hivemind in a way to eliminate opposition.",
+      "tagline": "Better Solutions for Harder Times",
       "imgSrc": "software.jpg",
       "twitter": "https://twitter.com/",
       "id": "software"
     },
 
     {
-      "type": "Data & Privacy Futurist",
+      "type": "Data & Privacy",
       "qualifications": "RHEL, AWS, Solaris, Linux, Oracle",
-      "misc":
-        "Lorem ipsum dolor sit amet, oratio feugiat sed te, hinc ancillae cum ut. Ad explicari argumentum duo. Sea dicant iriure utroque ei, in duo meis solet. Eum id reque legendos prodesset, his ad solet ceteros. At pri duis recusabo ocurreret, saepe fabellas sed ad, at iudico constituam mel. \n\n Id zril intellegat efficiendi sed, at vel eros vidit. Modus signiferumque ex his, dicant consulatu definitionem ea has. Qui at ubique debitis, cu eripuit inciderint nam. Sit ei admodum interesset mediocritatem. Prima quando suavitate vel an, illum scaevola efficiendi vim ne.",
-      "tagline": "System Orchestration & Architecture - node to Enterprise scale",
+      "misc": "N2E - Node to Enterprise: this simple moniker represents the scale of services I can provide to a business or organization. Just as AWS Lambda is scale-sensitive, so to are my consultative capacities - and I will bring sensible solutions to the table for reasonable cost under the constraints of time, quality, and agency.",
+      "tagline": "System Architecture & Orchestration",
       "imgSrc": "futurist.jpeg",
       "twitter": "https://twitter.com/",
       "id": "futurist"

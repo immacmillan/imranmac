@@ -43,7 +43,7 @@ body {
   padding-bottom: 15px;
 }
 .header {
-  padding-top: 50px;
+  padding-top: 15px;
   width: 100%;
   display: block;
   justify-content: center;
@@ -70,7 +70,7 @@ body {
 .headspec
   {
     padding-top: 5px;
-    font-size: 20px !important;
+    font-size: 30px !important;
     font-style: normal !important;
     text-shadow:
     -1px -1px 0 #000,
@@ -91,7 +91,14 @@ body {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
 }
-
+.topcontainer {
+  text-align: center;
+  font-family: Arial;
+  font-size: 20px;
+  margin-top: -1%;
+  padding-bottom: 20px;
+  font-weight: bolder;
+}
 
 
 /* Profile Card
