@@ -2,13 +2,32 @@ extends default
 
 block content
   div.topcontainer
-    p.topcontainercontent Working at the intersection of content delivery, application development and information security. 
-    p.topcontainercontent Delivering platforms to enable commerce and deliver secure transaction platforms for consumers and merchants alike.
-    br
-    p.topcontainercontent Harnessing cutting edge technologies with a philosophy of open-source and freely-distributed. 
-    p.topcontainercontent Java makes the world go round, and cloud development will always have a place for nascient systems. 
-    br
-    p.topcontainercontent2 Donate Now || Be a Bean || github: immacmillan || LinkedIn: || Twitter: || Instagram: || Facebook: || 
+    div.bullet1
+      p.fab.fa-artstation(aria-hidden='true') Working at the intersection of content delivery, application development and information security. 
+    div.bullet2
+      p.fas.fa-cloud-upload-alt(aria-hidden='true')   Delivering platforms to enable commerce and deliver secure transaction platforms for consumers and merchants alike.
+    div.bullet3
+      p.fab.fa-accusoft(aria-hidden='true')   Harnessing cutting edge technologies with a philosophy of open-source and freely-distributed. 
+    div.bullet4
+      p.fab.fa-battle-net(aria-hidden='true')   Java makes the world go round, and cloud development will always have a place for nascient systems. 
+    div.topcontainercontent2
+      |
+      div.fab.fa-bitcoin(aria-hidden='true')    Donate Now
+      |  
+      |  
+      div.fas.fa-piggy-bank(aria-hidden='true')    Be a Bean
+      |  
+      |  
+      div.fab.fa-github(aria-hidden='true')    github: immacmillan
+      |  
+      |  
+      div.fab.fa-linkedin-in(aria-hidden='true')    LinkedIn:
+      |  
+      |  
+      div.fab.fa-twitter(aria-hidden='true')    Twitter:
+      |  
+      |  
+      div.fab.fa-instagram(aria-hidden='true')    Instagram:
   div.container
     each comp in homepagedata
       div.comp
@@ -17,7 +36,20 @@ block content
           | #{comp.type} 
         a(href=`/comps?id=${comp.id}`)
           | View Profile 
-
-    
           
-          
+  div.bottom
+    div.box1
+      p  
+      | Platforms and Architecture:
+      br
+      | RHEL, AWS, Solaris, Linux, Oracle, Puppet, JBoss, Sparx, CLI, TCP/IP, CASP
+    div.box2
+      p 
+      | Languages and Frameworks: 
+      br
+      | Java, JS, Node, Angular, Git, CSS/SASS/SCSS, HTML, Nginx, Jenkins
+    div.box3
+      p 
+      | Data Analysis:
+      br
+      | mySQL, MongoDB, Tableau, QlikView, Excel, SAS, BIRT, Python 

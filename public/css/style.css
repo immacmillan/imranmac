@@ -69,7 +69,7 @@ body {
 }
 .headspec
   {
-    padding-top: 5px;
+    padding-top: 0px;
     font-size: 30px !important;
     font-style: normal !important;
     text-shadow:
@@ -77,6 +77,8 @@ body {
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000 !important;
+    display: inline !important;
+    background-color: #000;
   }
 
 
@@ -90,15 +92,23 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
 }
 .topcontainer {
   text-align: center;
   font-family: Arial;
-  font-size: 20px;
+  font-size: 22px;
   margin-top: -1%;
   padding-bottom: 20px;
   font-weight: bolder;
 }
+.bullet1 { text-indent: 5%; padding-bottom: 10px; text-align: left;}
+.bullet2 { text-indent: 5%; padding-bottom: 10px; text-align: left;}
+.bullet3 { text-indent: 5%; padding-bottom: 10px; text-align: left;}
+.bullet4 { text-indent: 5%; padding-bottom: 20px; text-align: left;}
+
+.fa-artstation { }
 
 
 /* Profile Card
@@ -136,7 +146,7 @@ body {
 }
 
 .competencies-details {
-  flex-basis: 30%;
+  flex-basis: 50%;
   flex-grow: 1;
   padding: 50px;
   display: flex;
@@ -148,6 +158,31 @@ body {
   margin-bottom: 20px;
 }
 
+
+/* Bottom
+   ========================================================================== */
+
+.bottom {
+  margin-top: -20px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.box1 {
+  flex-grow: 1;
+  width: 33%;
+}
+.box2 {
+  flex-grow: 1;
+  width: 33%;
+}
+.box3 {
+  flex-grow: 1;
+  width: 33%;
+}
 
 
 /* Buttons

@@ -11,7 +11,7 @@
     },
 
     {
-      "type": "Software Developer",
+      "type": "Software Development",
       "qualifications": "Java, JS, Node, Angular, Git, CSS/SASS/SCSS, HTML, Nginx, Jenkins",
       "misc":
         "Ethics in AI - where do robots get to draw the lines. Human compassion is something that capitalism has drived to drive out of society, but now dominant capitalists have found ways to programatically enabale the planned obsolensence of major factions of society, and humanity at large. The question is largely - what will become of these leftover traunces, under-represented economic minorities but physical pluralities. In this top heavy maelstorm of malprudence and faltering agencies of balance, reckoning is on the horizon. Will the individualist, the lone hacker, reign supreme - or will conglomerates and titans of industry manipulate hivemind in a way to eliminate opposition.",
@@ -23,7 +23,7 @@
 
     {
       "type": "Data & Privacy",
-      "qualifications": "mySQL, MongoDB, Tableau, QlikView, Excel, SAS, BIRT, Python",
+      "qualifications": "mySQL, MongoDB, Tableau, QlikView, Excel, SAS, BIRT, Python, EVM (C++), Solidity, Vyper",
       "misc": "N2E - Node to Enterprise: this simple moniker represents the scale of services I can provide to a business or organization. Just as AWS Lambda is scale-sensitive, so to are my consultative capacities - and I will bring sensible solutions to the table for reasonable cost under the constraints of time, quality, and agency. In any organization, the management of data is one of the key considerations and drivers of business matters. Ensuring confidentiality, privacy, segregation of duties, priveleged user access, administrative requirements, and data integrity are just some of the elements to a fully fleshed out system architecture. Blockchain has pioneered the way we traditional manage and secure data, and now that consensus driven, denctralized, and cryptographically secure data stores are available for construction on public and private networks, it is only a matter of time until the paradigm shift impacts daily commerce at industrial giants and tech companies alike.",
       "tagline": "System Architecture & Orchestration",
       "imgSrc": "futurist.jpeg",
