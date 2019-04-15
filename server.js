@@ -1,7 +1,13 @@
+// import mongoose from 'mongoose'; import User from '/models/User.js'; import Message from '/models/Message.js';
+const mongoose = require('mongoose');
+// const User = require('./models/User.js');
+// const Message = require('./models/Message.js');
+
+//const CONST = require('components/mongoConnection');
 const express = require('express');
 //const people = require('./people.json');
 const homepagedata = require('./homepagedata.json');
-
+//let mongoConnection = require('components/mongoConnection');
 const app = express();
 
 app.set('view engine', 'pug');

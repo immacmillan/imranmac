@@ -3,31 +3,34 @@ extends default
 block content
   div.topcontainer
     div.bullet1
-      p.fab.fa-artstation(aria-hidden='true') Working at the intersection of content delivery, application development and information security. 
+      p.fab.fa-artstation(aria-hidden='true')       Working at the intersection of content delivery, application development and information security. 
     div.bullet2
-      p.fas.fa-cloud-upload-alt(aria-hidden='true')   Delivering platforms to enable commerce and deliver secure transaction platforms for consumers and merchants alike.
+      p.fas.fa-cloud-upload-alt(aria-hidden='true')      Delivering platforms to enable commerce and deliver secure transaction platforms for consumers and merchants alike.
     div.bullet3
-      p.fab.fa-accusoft(aria-hidden='true')   Harnessing cutting edge technologies with a philosophy of open-source and freely-distributed. 
+      p.fab.fa-accusoft(aria-hidden='true')      Harnessing cutting edge technologies with a philosophy of open-source and freely-distributed. 
     div.bullet4
-      p.fab.fa-battle-net(aria-hidden='true')   Java makes the world go round, and cloud development will always have a place for nascient systems. 
+      p.fab.fa-battle-net(aria-hidden='true')      Java makes the world go round, and cloud development will always have a place for nascient systems. 
     div.topcontainercontent2
       |
-      div.fab.fa-bitcoin(aria-hidden='true')    Donate Now
+      div.fab.fa-github(aria-hidden='true')    Github:
+      | 
+      | 
+      a(href='https://github.com/immacmillan')  immacmillan
+      |   
+      div.fab.fa-linkedin-in(aria-hidden='true')    
       |  
+      a(href='www.linkedin.com/in/imran-macmillan')    LinkedIn
+      |   
+      div.fab.fa-twitter(aria-hidden='true')    
+      | 
+      a(href='https://twitter.com/ImranMacMillan')     Twitter
       |  
-      div.fas.fa-piggy-bank(aria-hidden='true')    Be a Bean
+      div.fab.fa-instagram(aria-hidden='true')    
       |  
+      a(href='https://instagram.com/i_gmac')   Instagram
+      |   
+      div.fas.fa-piggy-bank(aria-hidden='true')    Be a Bean   
       |  
-      div.fab.fa-github(aria-hidden='true')    github: immacmillan
-      |  
-      |  
-      div.fab.fa-linkedin-in(aria-hidden='true')    LinkedIn:
-      |  
-      |  
-      div.fab.fa-twitter(aria-hidden='true')    Twitter:
-      |  
-      |  
-      div.fab.fa-instagram(aria-hidden='true')    Instagram:
   div.container
     each comp in homepagedata
       div.comp
@@ -53,3 +56,21 @@ block content
       | Data Analysis:
       br
       | mySQL, MongoDB, Tableau, QlikView, Excel, SAS, BIRT, Python 
+          
+  div.blueframe
+    div.box1
+      p 
+      
+  div.punch
+    div.punchmain
+      | Life's Journey to Balance Science and Art
+      br
+      img.brain(src='/images/artscience.jpg')
+    div.punchbowl
+      p Here's where stuff will go
+      ul  
+        each val in [1,2,3,4,5]
+          | 
+          li= val
+                
+    
